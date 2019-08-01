@@ -25,7 +25,7 @@ btn.addEventListener("click", e => {
 
     btn2.addEventListener("click", e => {
         btn.style.display = "block";
-        div.style.display = "none";
+        document.body.removeChild(div)
     })
 
     btn.style.display = "none";
