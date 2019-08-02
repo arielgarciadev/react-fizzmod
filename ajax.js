@@ -1,15 +1,21 @@
-let xhr = new XMLHttpRequest;
+Array.from(document.getElementsByClassName("links")).forEach(function (item) {
+    item.addEventListener("click", e => {
+        e.preventDefault();
+        ajax(e.target.href)
+    })
+});
 
-xhr.addEventListener("readystatechange", () => {
-    console.log(`Nuevo estado ${xhr.readyState}`);  
-})
+function ajax(params) {
+    let xhr = new XMLHttpRequest
 
-xhr.addEventListener("load", () => {
-    if(xhr.status == 200){
-        console.log(xhr.response);
-    }    
-})
+    xhr.addEventListener("load", () => {
+        if (xhr.status == 200) {
+            let main = document.getElementsByTagName("main")[0];
+            main.innerHTML = xhr.response;
+        }
+    })
+    
+    xhr.open("get", params);
 
-xhr.open("GET", "info.txt");
-
-xhr.send()
+    xhr.send()
+}
