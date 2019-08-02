@@ -1,1 +1,1 @@
-info
+Contenido de info.txt
