@@ -6,10 +6,9 @@ import Footer from "./Footer"
 let App = () =>
     <Fragment>
         <Header/>
-        <Main />
+        <Main/>
         <Footer/>
     </Fragment>
-
 
 export default App 
 
