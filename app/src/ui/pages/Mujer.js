@@ -40,7 +40,7 @@ class Mujer extends React.Component {
                 <div className="contenedor-productos" >
                     {productos.map((producto,i)=>
                         
-                        <Link key={i} to={`/mujeres/${producto.id}`} onClick={seleccionarProducto.bind(null,i)}>
+                        <Link key={i} to={`/mujer/${producto.id}`} onClick={seleccionarProducto.bind(null,i)}>
                             <div className="productCard" key={i}>
                                 <img src={`/images/${producto.titulo}.jpg`} alt=""/>
                                     <h3>{producto.titulo}</h3>

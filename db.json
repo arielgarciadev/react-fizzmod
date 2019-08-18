@@ -85,10 +85,92 @@
   "mujeres": [
     {
       "id": 1,
-      "titulo": "Remera TP Heavy Tee",
-      "descripcion": "Una remera holgada con las icónicas 3 Tiras",
+      "titulo": "PANTALON LOTTO TRNG",
+      "descripcion": "ES un pantalon nike.",
+      "marca": "Nike",
+      "precio": 1249,
+      "categoria": "pantalon"
+    },
+    {
+      "id": 2,
+      "titulo": "Pantalón River Plate",
+      "descripcion": "Un estilo clásico que te envuelve en comodidad",
       "marca": "Adidas",
-      "precio": 1949,
+      "precio": 3699,
+      "categoria": "pantalon"
+    },
+    {
+      "id": 3,
+      "titulo": "REMERA NIKE ULTRA FEMME CREW",
+      "descripcion": "Remera Nike femenina.",
+      "marca": "Nike",
+      "precio": 999,
+      "categoria": "remeras"
+    },
+    {
+      "id": 4,
+      "titulo": "Zapatillas Runfalcon",
+      "descripcion": "Zapatillas de máxima sujeción para tus salidas diarias a correr",
+      "marca": "Adidas",
+      "precio": 3249,
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 5,
+      "titulo": "Rompeviento SST",
+      "descripcion": "Un rompevientos con diseño inspirado en la ropa deportiva de los 70.",
+      "marca": "Adidas",
+      "precio": 5200,
+      "categoria": "camperas"
+    },
+    {
+      "id": 6,
+      "titulo": "TRACK TOP Palmeston TT",
+      "descripcion": "Una campera deportiva con un estilo tomado de los archivos.",
+      "marca": "Adidas",
+      "precio": 4200,
+      "categoria": "camperas"
+    },
+    {
+      "id": 7,
+      "titulo": "Rompeviento SST",
+      "descripcion": "Un rompevientos con diseño inspirado en la ropa deportiva de los 70.",
+      "marca": "Adidas",
+      "precio": 6200,
+      "categoria": "camperas"
+    },
+    {
+      "id": 8,
+      "titulo": "Zapatillas Runfalcon",
+      "descripcion": "Zapatillas de máxima sujeción para tus salidas diarias a correr",
+      "marca": "Adidas",
+      "precio": 4449,
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 9,
+      "titulo": "Vans Classic Full Zip",
+      "descripcion": "Campera canguro. Detalle de ribb en capucha y boca de bolsillos. Estampa VANS en el delantero y grifa en el lateral.",
+      "marca": "Vans",
+      "precio": 2820,
+      "categoria": "camperas"
+    },
+    {
+      "id": 10,
+      "titulo": "Ebernon Mid Winter",
+      "descripcion": "UN CALZADO CLÁSICO PARA ENFRENTARTE A LA TEMPORADA INVERNAL.",
+      "marca": "Nike",
+      "precio": 5000,
+      "categoria": "remeras"
+    }
+  ],
+  "ninos": [
+    {
+      "id": 1,
+      "titulo": "Remera TREFOIL TEE",
+      "descripcion": "El legado del trébol",
+      "marca": "Adidas",
+      "precio": 1149,
       "categoria": "remeras"
     },
     {
@@ -101,12 +183,67 @@
     },
     {
       "id": 3,
-      "titulo": "Camiseta Real Madrid Uniforme Titular",
-      "descripcion": "Una versión holgada de la camiseta titular del club",
+      "titulo": "REMERA NIKE ULTRA FEMME CREW",
+      "descripcion": "Remera Nike femenina.",
+      "marca": "Nike",
+      "precio": 999,
+      "categoria": "remeras"
+    },
+    {
+      "id": 4,
+      "titulo": "Zapatillas Runfalcon",
+      "descripcion": "Zapatillas de máxima sujeción para tus salidas diarias a correr",
       "marca": "Adidas",
-      "precio": 3799,
+      "precio": 3249,
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 5,
+      "titulo": "Rompeviento SST",
+      "descripcion": "Un rompevientos con diseño inspirado en la ropa deportiva de los 70.",
+      "marca": "Adidas",
+      "precio": 5200,
+      "categoria": "camperas"
+    },
+    {
+      "id": 6,
+      "titulo": "TRACK TOP Palmeston TT",
+      "descripcion": "Una campera deportiva con un estilo tomado de los archivos.",
+      "marca": "Adidas",
+      "precio": 4200,
+      "categoria": "camperas"
+    },
+    {
+      "id": 7,
+      "titulo": "Rompeviento SST",
+      "descripcion": "Un rompevientos con diseño inspirado en la ropa deportiva de los 70.",
+      "marca": "Adidas",
+      "precio": 6200,
+      "categoria": "camperas"
+    },
+    {
+      "id": 8,
+      "titulo": "Zapatillas Runfalcon",
+      "descripcion": "Zapatillas de máxima sujeción para tus salidas diarias a correr",
+      "marca": "Adidas",
+      "precio": 4449,
+      "categoria": "zapatillas"
+    },
+    {
+      "id": 9,
+      "titulo": "Vans Classic Full Zip",
+      "descripcion": "Campera canguro. Detalle de ribb en capucha y boca de bolsillos. Estampa VANS en el delantero y grifa en el lateral.",
+      "marca": "Vans",
+      "precio": 2820,
+      "categoria": "camperas"
+    },
+    {
+      "id": 10,
+      "titulo": "Ebernon Mid Winter",
+      "descripcion": "UN CALZADO CLÁSICO PARA ENFRENTARTE A LA TEMPORADA INVERNAL.",
+      "marca": "Nike",
+      "precio": 5000,
       "categoria": "remeras"
     }
-  ],
-  "ninos": []
+  ]
 }

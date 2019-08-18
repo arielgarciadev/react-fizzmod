@@ -4,11 +4,11 @@ export let pedirProductos = (genero) => dispatch => {
     fetch(`http://localhost:3001/${genero}`)
     .then(res=>res.json())
     .then(res=>dispatch({
-        type:"PERSONAJES_TRAER_ALL",
+        type:"PRODUCTS_TRAER_ALL",
         payload:res
     }))
     .catch(err=>dispatch({
-        type:"PERSONAJES_ERROR",
+        type:"PRODUCTS_ERROR",
         payload:"No pude traer los personajes"
     }))
 }
@@ -17,18 +17,16 @@ export let filtrarProductos = (i,marca) => dispatch => {
     fetch(`http://localhost:3001/hombre?marca=Vans`)
     .then(res=>res.json())
     .then(res=>dispatch({
-        type:"PERSONAJES_TRAER_ALL",
+        type:"PRODUCTS_TRAER_ALL",
         payload:res
     }))
     .catch(err=>dispatch({
-        type:"PERSONAJES_ERROR",
+        type:"PRODUCTS_ERROR",
         payload:"No pude traer los personajes"
     }))
 }
 
 export let seleccionarProducto = payload => ({ type : "PRODUCTS_SELECCIONAR" , payload })
-
-
 
 export let borrarProductosHombre = (payload,id,indice) => dispatch => {
 
