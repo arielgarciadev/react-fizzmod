@@ -28,6 +28,9 @@ export let filtrarProductos = (i,marca) => dispatch => {
 
 export let seleccionarProducto = payload => ({ type : "PRODUCTS_SELECCIONAR" , payload })
 
+
+// TO DO: Refomular la función, borrarProductosHombre, para tomar el genero.
+//      *Guardar en el estado(reducer) un propiedad genero => para darle el valor cuando utilizo pedirProductos()
 export let borrarProductosHombre = (payload,id,indice) => dispatch => {
 
     fetch(`http://localhost:3001/hombre/${id}`,{
@@ -43,3 +46,5 @@ export let borrarProductosHombre = (payload,id,indice) => dispatch => {
         toast.warn("Ha ocurrido un error.");
     })
 }
+
+// TO DO: Función para hacer POST del objeto del formulario.

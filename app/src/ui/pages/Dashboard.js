@@ -18,20 +18,19 @@ class Dashboard extends React.Component {
         let {productos,borrarProductosHombre, pedirProductos} = this.props;
         let generos = ["hombre", "mujeres", "ninos"]
         return (
+            
             <Fragment>
 
                 <h2 id="titulo-dashboard" >Dashboard</h2>
 
                 <ButtonGroup className="grupoBotones" fullWidth aria-label="full width outlined button group">
-
-                    {generos.map((genero,i)=>
-                        
+                    {generos.map((genero,i)=>                        
                         <Button key={i} variant="outlined" size="medium" color="primary" onClick={pedirProductos.bind(null,`${genero}`)}>{genero}
-                        </Button>
+                        </Button>                        
                     )}
                 </ButtonGroup>
 
-                    <ToastContainer
+                <ToastContainer
                         position="bottom-right"
                         autoClose={3000}
                         hideProgressBar={false}
@@ -41,7 +40,7 @@ class Dashboard extends React.Component {
                         pauseOnVisibilityChange
                         draggable
                         pauseOnHover={false}
-                    />
+                />
 
                 <table>
                     <thead>
@@ -54,11 +53,8 @@ class Dashboard extends React.Component {
                         <tr key={i}>
                             <td>{producto.titulo}
                                 <span className="span-eliminar" onClick={borrarProductosHombre.bind(null,i,producto.id,i)}> X</span>
-
                             </td>
                         </tr>
-
-
                         )}
                     </tbody>
                 </table>

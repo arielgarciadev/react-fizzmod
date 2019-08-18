@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import {Route,Switch} from "react-router-dom"
 import Home from "../pages/Home"
-import Hombre from "../pages/Hombre" //personajes
-import Mujer from '../pages/Mujer'; //mujer
-import Niños from "../pages/Niños" //contacto
+import Hombre from "../pages/Hombre"
+import Mujer from '../pages/Mujer';
+import Niños from "../pages/Niños"
 import Dashboard from "../pages/Dashboard"
 import ProductoDetalle from '../pages/ProductoDetalle';
 
